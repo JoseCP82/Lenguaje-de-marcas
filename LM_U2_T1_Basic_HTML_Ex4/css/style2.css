@@ -1,0 +1,17 @@
+table{
+    border: 3px solid salmon;
+    border-collapse: separate;
+    background-color: lightyellow;
+    border-spacing: 5px;
+}
+
+th, td {
+    border: 1px solid salmon;
+    padding: 2px;
+  }
+
+.negritaTop{
+  font-weight: bold;
+  vertical-align: top;
+}  
+

@@ -1,0 +1,23 @@
+td{
+    padding-right: 100px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.disco{
+    list-style: disc;
+}
+
+.cuadrado{
+    list-style: square;
+}
+
+.circulo{
+    list-style: circle;
+}
+
+.vacio{
+    list-style: none;
+}
