@@ -1,0 +1,39 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.alinearArI {
+    text-align: left;
+    vertical-align: top;
+}
+
+.alinearAbI {
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.alinearAbD {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.alinearCentro {
+    text-align: center;
+}
+
+.alinearDerecha {
+    text-align: right;
+}
+
+.alinearAbajoC {
+    text-align: center;
+    vertical-align: bottom ;
+}
+
+.alinearIzquierda {
+    text-align: left;
+}

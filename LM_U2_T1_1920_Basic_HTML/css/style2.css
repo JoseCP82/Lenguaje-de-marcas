@@ -1,0 +1,8 @@
+table, td {
+    border: 1px inset grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+    border: 1px inset grey;
+}

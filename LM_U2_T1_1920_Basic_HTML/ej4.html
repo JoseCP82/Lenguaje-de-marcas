@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+    <form>
+    <legend><h1>Reservation Request</h1></legend>
+        <fieldset>
+            <legend id="legendColor">General Information</legend>
+            <table>
+                <tr>
+                    <td>         
+                        <label for="aDate">Arrival date:</label>
+                    </td>
+                    <td>
+                        <input id="inputMargin1" type="text" id="aDate" name="aDate" value="01/01/1900">
+                    </td>
+                </tr>
+                <tr>    
+                    <td>
+                        <label for="nights">Nights:</label>
+                    </td>
+                    <td>
+                        <input id="inputMargin1" type="text" id="nights" name="nights">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="adults">Adults:</label>
+                    </td>
+                    <td>
+                        <select id="inputMargin1" id="adults" name="adults">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="children">Children:</label>
+                    </td>
+                    <td>
+                        <select id="inputMargin1" id="children" name="children">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend id="legendColor">Preferences</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="rType">Room type:</label>
+                        <input style="margin-left: 15px;" type="radio" id="rType" name="rType" value="Standard">
+                        <label for="rType">Standard</label>
+                        <input style="margin-left: 10px;" type="radio" id="rType" name="rType" value="Business">
+                        <label for="rType">Business</label>
+                        <input style="margin-left: 10px;" type="radio" id="rType" name="rType" value="Suite">
+                        <label for="rType">Suite</label>  
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rType">Bed type:</label>
+                        <input style="margin-left: 28px;" type="radio" id="bType" name="bType" value="King">
+                        <label for="bType">King</label>
+                        <input style="margin-left: 10px;" type="radio" id="bType" name="bType" value="Double">
+                        <label for="bType">Double Double</label>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="smoking" name="smoking" value="Smoking">
+                        <label for="smoking">Smoking</label>
+                    </td>    
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend id="legendColor">Contact Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                    </td>
+                    <td>
+                        <input id="inputMargin2" type="text" id="name" name="name">
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input id="inputMargin2" type="text" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">Phone:</label>
+                    </td>
+                    <td>
+                        <input id="inputMargin2" type="text" id="phone" name="phone">
+                    </td>   
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="border: 0ch; padding-top: 20px;">
+            <table>
+                <tr>
+                    <td>
+                        <input style="margin-left: 10px; width: 200px;" type="submit" value="Submit Reservation">    
+                        <input style="margin-left: 20px; width: 200px;" type="reset" value="Clear" >
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

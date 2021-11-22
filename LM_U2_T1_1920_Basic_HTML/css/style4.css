@@ -1,0 +1,23 @@
+form {
+    width: 600px;
+    border: 4px inset blue;    
+    padding: 10px;
+    padding-top: 0%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#legendColor {
+    color: blue;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+#inputMargin1 {
+    margin-left: 10px;    
+}
+
+#inputMargin2 {
+    margin-left: 50px;    
+}
