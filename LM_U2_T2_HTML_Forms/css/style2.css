@@ -1,0 +1,39 @@
+fieldset {
+    width: 900px;
+}
+
+label {
+    font-weight: bold;
+}
+
+td {
+    padding-bottom: 35px;
+}
+
+input {
+    border-color: grey;
+}
+
+#inputPadding {
+    padding-left: 30px;
+}
+
+.inputWidth {
+    width: 200px;
+}
+
+select {
+    border-color: grey;
+    width: 215px;
+}
+
+#selectPading {
+    padding-left: 30px;
+}
+
+.botones {
+    background-color: aqua;
+    color: white;
+    width: 80px;
+    height: 25px;
+}

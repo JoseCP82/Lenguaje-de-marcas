@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <fieldset style="background-color: aqua; border-bottom: 0ch;">
+        <span style="font-weight: bold; font-size: large;">Event Planner</span>
+        <label style="padding-left: 50px;" for="">More Actions</label>
+        <select name="" id="" style="width: 20px;">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>        
+    </fieldset>
+    <fieldset style="border-top: 0ch;">
+        <form>
+            <table >
+                <tr>
+                    <td style="padding-top: 20px;">
+                        <label for="ename">Event Name</label>
+                    </td>
+                    <td style="padding-top: 20px;" id="inputPadding">
+                        <input type="text" id="ename" name="ename" class="inputWidth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ecoord">Event Coordinator</label>
+                    </td>
+                    <td id="inputPadding">
+                        <input type="text" id="ecoord" name="ecoord" class="inputWidth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                    </td>
+                    <td id="inputPadding">
+                        <input type="text" id="email" name="email" class="inputWidth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="etype">Event Type</label>
+                    </td>
+                    <td id="selectPading">
+                        <select name="etype" id="etype">
+                            <option value="Concert">Concert</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="tmembers">Total Members</label>
+                    </td>
+                    <td id="selectPading">
+                        <select name="tmembers" id="tmembers">
+                            <option value="select">-Select-</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">
+                        <label for="edesc" >Event Description</label>
+                    </td>
+                    <td id="inputPadding">
+                        <textarea name="edesc" id="edesc" cols="25" rows="6"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="question">
+                            Does your program<br>
+                            insolve any type of<br>
+                            outside activity?
+                        </label>
+                    </td>
+                    <td style="width: 10px;" id="inputPadding">
+                        <input type="radio" id="yes" name="question" value="Yes">Yes<br>
+                        <input type="radio" id="no" name="question" value="no">No<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cper">Cost Per Person</label>
+                    </td>
+                    <td id="inputPadding">
+                        <input type="text" id="name" name="name" style="width: 100px;"><span style="padding: 5px; color: grey;">USD</span>
+                    </td>
+                </tr>
+            </table>
+            <table style="margin-left: 420px; margin-top: -583px;">
+                <tr>
+                    <td style="vertical-align: top;">
+                        <label for="reqs">Requeriments</label>
+                    </td>
+                    <td id="inputPadding">
+                        <input type="checkbox" id="staffing" name="staffing" value="staffing">Staffing<br>
+                        <input type="checkbox" id="catering" name="catering" value="catering">Catering<br>
+                        <input type="checkbox" id="security" name="security" value="security">Security
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">
+                        <label for="estart" >Event Start Date</label>        
+                    </td>
+                    <td id="inputPadding">
+                        <input type="text" id="estart" name="estart">
+                        <img src="img/calendar.png" alt="" width="20px" style="vertical-align: bottom;">
+                        [dd-MMM-yyyy HH:mm:ss]
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">
+                        <label for="eend">Event End Date</label>        
+                    </td>
+                    <td id="inputPadding">
+                        <input type="text" id="eend" name="eend">
+                        <img src="img/calendar.png" alt="" width="20px" style="vertical-align: bottom;">
+                        [dd-MMM-yyyy HH:mm:ss]
+                    </td>
+                </tr>  
+                <tr>
+                    <td style="vertical-align: top;">
+                        <label for="loc">Location</label>
+                    </td>
+                    <td id="inputPadding">
+                        <textarea name="loc" id="loc" cols="25" rows="6"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cyty">City</label>
+                    </td>
+                    <td id="inputPadding">
+                        <input type="text" id="city" name="city" class="inputWidth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">State</label>
+                    </td>
+                    <td id="selectPading">
+                        <select name="state" id="state">
+                            <option value="select">-Select-</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">Country</label>
+                    </td>
+                    <td id="selectPading">
+                        <select name="country" id="country">
+                            <option value="select">-Select-</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="attach">Attach<br>Detailed<br>Itinerary</label>
+                    </td>
+                    <td id="inputPadding">
+                        <input type="text" style="width: 120px;">
+                        <input type="button" value="Browse" style="background-color: white">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="padding-bottom: 0%; padding-left: 325px;">
+                        <input type="button" value="Submit" class="botones">
+                        <input type="button" value="Reset" class="botones">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

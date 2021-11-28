@@ -1,0 +1,42 @@
+fieldset{
+    border: 0ch;
+}
+
+.labelNegrita {
+    font-weight: bold;
+}
+
+table {
+    width: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    border-left: 0px;
+    border-right: 0px;    
+}
+
+td {
+    border: 1px solid grey;
+    border-left: 0ch;
+    padding: 10px;
+}
+
+#widthInputs {
+    width: 400px;
+}
+
+#borderRight {
+    border-right: 0ch;    
+}
+
+#checkboxWidth{
+    width: 10px;
+    height: 5px;
+}
+
+#checkboxVAlign {
+    vertical-align: top;
+}
+
+#tabla2 {
+    border: 0ch;
+}

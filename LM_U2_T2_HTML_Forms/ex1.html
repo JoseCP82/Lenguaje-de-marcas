@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <form>
+        <fieldset class="labelNegrita">
+            <label for="">Title:<span style="color: red;">*</span></label>
+            <label style="margin-left: 270px;" for="">Short Title:<span style="color: red;">*</span></label>
+            <label style="margin-left: 125px;" for="">Subj.:</label>
+            <label style="margin-left: 8px;" for="">Num.:</label>
+            <label style="margin-left: 8px;" for="">Section:</label>
+            <label style="margin-left: 8px;" for="">Year:</label><br>
+            <input style="width: 300px;" type="text" value="Astronomy for Poets">
+            <input style="width: 200px; margin-left: 5px;" type="text" value="Astr. for Poets">
+            <span style="font-size: xx-small; margin-left: 8px; vertical-align: top;">BLST</span>
+            <input style="width: 20px; margin-left: 25px;" type="number">
+            <input style="width: 30px; margin-left: 22px;" type="number">
+            <span style="font-size: xx-small; margin-left: 30px; vertical-align: top;">0910</span>
+        </fieldset>
+        <fieldset>
+            <table style="border-left: 0ch;">
+                <tr style="background-color: rgb(247, 247, 247)">
+                    <td id="borderRight" id="checkboxWidth">
+                        <input type="checkbox">
+                    </td>    
+                    <td style="width: 50px;" id="borderRight">
+                        <label for="">Enrollment limit</label>
+                    </td>
+                    <td style="width: 50px;" id="borderRight">
+                        <label class="labelNegrita" for="">Num.:</label><br>
+                        <input style="width: 30px;" type="text">
+                    </td>
+                    <td>
+                        <label class="labelNegrita" for="">Rationale:</label><br>
+                        <input id="widthInputs" type="text">
+                    </td>
+                    <td rowspan="4" style="vertical-align: top;">
+                        <label class="labelNegrita" for="">Class<br>Meeting/Week:</label><br>
+                        <select name="" id="">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select><br>
+                        <label class="labelNegrita" for="">Class Hours/Week:</label><br>
+                        <select name="" id="">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select><br>
+                        <label class="labelNegrita" for="">Semester(s) Offered:</label><br>
+                        <select name="" id="">
+                            <option value="None">- None -</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select><br>
+                        <input type="checkbox">
+                        <label for="">Incl. semester in prereqs.</label><br>
+                        <input type="checkbox">
+                        <label for="">Offered only once</label><br>
+                        <input type="checkbox">
+                        <label for="">Incl. in printed catalog</label>
+                    </td>
+                    <td rowspan="4" id="borderRight" style="vertical-align: top;">
+                        <label class="labelNegrita" for="">Keywords:</label><br>
+                        <input type="checkbox">
+                        <label for="">Science for non-majors</label><br>
+                        <input type="checkbox">
+                        <label for="">Fine arts for non-majors</label><br>
+                        <input type="checkbox">
+                        <label for="">Lab science course</label><br>
+                        <input type="checkbox">
+                        <label for="">Artistic practise</label><br>
+                        <input type="checkbox">
+                        <label for="">Foreign languaje/culture taught in English</label><br>
+                        <input type="checkbox">
+                        <label for="">Community based learning</label><br>
+                        <input type="checkbox">
+                        <label for="">Writing attentive</label><br>
+                        <input type="checkbox">
+                        <label for="">Writing intensive</label><br>
+                    </td>
+                </tr>
+                <tr style="background-color: rgb(238, 238, 238)">
+                    <td id="borderRight" id="checkboxWidth">
+                        <input id="checkboxVAlign" type="checkbox">
+                    </td>
+                    <td id="borderRight">
+                        <label for="">Consent required</label>
+                    </td>
+                    <td id="borderRight"></td>
+                    <td>
+                        <label class="labelNegrita" for="">Rationale:</label><br>
+                        <input id="widthInputs" type="text">
+                    </td>
+                </tr>
+                <tr style="background-color: rgb(247, 247, 247)">
+                    <td id="borderRight" id="checkboxWidth">
+                        <input id="checkboxVAlign" type="checkbox">
+                    </td>
+                    <td id="borderRight">
+                        <label for="">Limit class level</label>
+                    </td>
+                    <td id="borderRight">
+                        <label class="labelNegrita" class="labelNegrita" for="">Code:</label><br>
+                        <input style="width: 30px;" type="text">
+                    </td>
+                    <td>
+                        <label class="labelNegrita" for="">Rationale:</label><br>
+                        <input id="widthInputs" type="text"><br>
+                        <label class="labelNegrita" for="">How to handle over-enrollment:</label><br>
+                        <input id="widthInputs" type="text">
+                    </td>
+                </tr>
+                <tr style="background-color: rgb(238, 238, 238)">
+                    <td id="borderRight" id="checkboxWidth">
+                        <input id="checkboxVAlign" type="checkbox">
+                    </td>
+                    <td colspan="2" id="borderRight">
+                        <label for="">Prerequisite</label>    
+                    </td>
+                    <td>
+                        <label class="labelNegrita" for="">Rationale:</label><br>
+                        <input id="widthInputs" type="text"><br>
+                        <label class="labelNegrita" for="">Required Prereqs.(major, course):</label><br>
+                        <input id="widthInputs" type="text"><br>
+                        <label class="labelNegrita" for="">Recommended Prereqs.:</label><br>
+                        <input id="widthInputs" type="text">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="font-weight: bold; padding-top: 0%;">
+            <label>Approvals:</label>
+            <label style="margin-left: 90px;">Date:</label>
+            <label style="margin-left: 180px;">Comment:</label>
+        </fieldset>
+        <fieldset>
+            <table style="border: 0ch;">
+                <tr>
+                    <td id="tabla2"><input type="checkbox"></td>
+                    <td id="tabla2"><label for="">CEP</label></td>
+                    <td id="borderRight" style="border-top: 3px solid grey; background-color: rgb(247, 247, 247);"> 
+                        <img src="img/cruz.png" width="20px;" alt="">
+                        <input type="text">
+                    </td>
+                    <td rowspan="3" style="padding: 5px; border: 0ch;"></td>
+                    <td id="borderRight" style="border-top: 3px solid grey; background-color: rgb(247, 247, 247);">
+                        <img src="img/cruz.png" width="20px;" alt="">
+                        <input id="widthInputs" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="tabla2"><input type="checkbox"></td>
+                    <td id="tabla2"><label for="">Committee of Six</label></td>
+                    <td id="borderRight" style="background-color: rgb(238, 238, 238);">
+                        <img src="img/cruz.png" width="20px;" alt="">
+                        <input type="text">
+                    </td>
+                    <td id="borderRight" style="background-color: rgb(238, 238, 238);">
+                        <img src="img/cruz.png" width="20px;" alt="">
+                        <input id="widthInputs" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="tabla2"><input type="checkbox"></td>
+                    <td id="tabla2"><label for="">Faculty</label></td>
+                    <td id="borderRight" style="background-color: rgb(247, 247, 247);">
+                        <img src="img/cruz.png" width="20px;" alt="">
+                        <input type="text">
+                    </td>
+                    <td id="borderRight" style="background-color: rgb(247, 247, 247);">
+                        <img src="img/cruz.png" width="20px;" alt="">
+                        <input id="widthInputs" type="text">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
