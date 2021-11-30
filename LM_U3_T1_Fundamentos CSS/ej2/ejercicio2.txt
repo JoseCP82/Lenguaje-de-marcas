@@ -1,0 +1,3 @@
+Los primeros 2 párrafos son distintos a los siguientes 5 porque 
+se ha definido y aplicado una clase en la que (en la hoja de estilo) 
+se modifican atributos tales como el color del texto y un aumento del margen izquierdo.

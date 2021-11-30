@@ -1,0 +1,30 @@
+body {background-color: tan}
+Cambia de color el fondo del cuerpo.
+
+h1 {color:maroon; font-size:20pt}
+Asigna un color y un tamaño de letra a todos los titulos de tipo <h1>.
+
+hr {color:navy}
+Asigna un color a todas las lineas <hr>.
+
+p {font-size:12pt; margin-left: 15px}
+Establece un tamaño de letra y añade un margen por la izquierda a todos los párrafos <p>.
+
+p.verse {color:maroon; margin-left: 60px}
+Establece un color al texto y añade margen del lado izquierdo a los párrafos <p> 
+que llamen a la clase (class) definida, en éste caso los párrafos que contengan class="verse".
+
+a:link     {color:green}
+En ésta linea se hace referencia a la etiqueta <a> y se le establece un color al enlace 
+definido y se mantendrá con éste mientras no se realice alguna acción.
+
+a:visited  {color:yellow}
+En ésta linea se hace referencia a la etiqueta <a> y se le establece un color al enlace definido 
+que cambie una vez pulsado.
+
+a:hover    {color:black}
+Con "a:hover" se consigue que al posicionar el puntero del ratón sobre el enlace éste cambie
+al color indicado.
+
+a:active   {color:blue}
+El elemento cambia de color en el momento en que se presiona el boton del ratón hasta que se suelta.
