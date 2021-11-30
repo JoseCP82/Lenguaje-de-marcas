@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+tr td:first-child {
+    background-color: green;
+}
+
+tr:nth-child(3) th:nth-child(2) {
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;    
+}
+
+a:link {
+    color: green;    
+}
+
+a:visited {
+    color: red;
+}
+
+.aumento tr th:last-child:hover, tr td:last-child:hover {
+    font-size: x-large;
+}
+
+.mayuscula th::first-letter {
+    font-size: x-large;
+}
+
+input:required {
+    border: 1px solid red;
+    padding: 5px;
+}
+
+label::after {
+    color: red;
+    content: "*";
+}
