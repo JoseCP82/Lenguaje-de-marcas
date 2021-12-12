@@ -1,0 +1,74 @@
+* {
+    margin: 0ch;
+    border: 0ch;
+}
+
+body {
+    max-width: 1000;
+    margin: auto;
+    width: 90%;
+}
+
+.titulo {
+    padding: 20px 0px 20px 10px;
+    font-size: x-large;
+}
+
+.table1 {
+    background-color: rgb(227, 23, 24);
+    background-image: url(img/fondo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+}
+
+td img {
+    width: 250px;
+}
+
+.parrafo1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.parrafo2 {
+    text-align: inherit;
+    padding: 10px 30px 20px 30px;
+}
+
+input {
+    height: 30px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    border-left: 2px solid red;
+    cursor: pointer;
+}
+
+.table2{
+    margin: 30px;  
+}
+
+.firsTr {
+    background-color: rgb(227, 23, 24);
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 180px;
+    font-size: xx-large;
+}
+
+.secondTr {
+    text-align: center;
+    color: silver;
+    font-size: xx-large;
+}
+
+.thirdTr {
+    text-align: inherit;
+    color: silver;
+}
+
+.emptyTd {
+    width: 10px;
+    background-color: white;
+}
