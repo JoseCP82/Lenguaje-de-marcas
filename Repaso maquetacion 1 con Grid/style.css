@@ -1,0 +1,184 @@
+* {
+    margin: 0%;
+    border: 0ch;
+}
+
+.cabecera {
+    grid-area: cabecera;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.navegador {
+    grid-area: navegador;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    background-color: rgb(105, 127, 85);
+    border-bottom: 3px solid rgb(58, 77, 40);
+    color: white;
+}
+
+.main1 {
+    grid-area: main1;
+    position: relative;
+    width: 250px;
+    height: 270px;
+    top: 20px;
+    left: 20px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.main2 {
+    grid-area: main2;
+    position: relative;
+    width: 100%;
+    top: 30px;
+}
+
+.main3 {
+    grid-area: main3;
+    position: relative;
+    width: 250px;
+    height: 270px;
+    top: 20px;
+    left: 185px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.footer {
+    grid-area: footer;
+    position: relative;
+    top: 100px;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "cabecera cabecera cabecera"
+    "navegador navegador navegador"
+    "main1 main2 main3"
+    "footer footer footer";
+    width: 95%;
+    margin: 10px auto;
+    /*height: 500px;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecera h1 {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: 30px;
+}
+
+#login1 {
+    position: relative;
+    top: 15px;
+    left: -10px;
+}
+
+#login1 {
+    display: flex;
+    justify-content: right;
+}
+
+.navegador div {  
+    padding: 10px;
+}
+
+.navegador div:hover {
+    background-color: white;
+    color: rgb(105, 127, 85);
+}
+
+.main1 h4 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.main1 img {
+    position: absolute;
+    width: 210px;
+    top: 45px;
+    left: 20px;
+}
+
+#img_ies {
+    position: relative;
+    width: 100%;
+}
+
+#categorias {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    background-color: lightgrey;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(105, 127, 85);
+}
+
+#cursos {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 180px;
+    border: 1px solid rgb(105, 127, 85);
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+#cursos img {
+    position: absolute;
+    width: 80px;
+    top: 90px;
+    left: 550px;
+}
+
+#cursos ul {
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    list-style: none;
+    color: rgb(105, 127, 85);
+    font-weight: bold;
+}
+
+#cursos span{
+    color: black;
+}
+
+.main3 h4 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.main3 img {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    top: 45px;
+    left: 20px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.footer img {
+    display: flex;
+    margin: auto;
+}
