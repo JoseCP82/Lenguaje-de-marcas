@@ -1,0 +1,95 @@
+body {
+    width: 100%;
+    background-color: rgb(48, 65, 75);
+    margin-bottom: 10px;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+#header {
+    padding-bottom: 20px;
+}
+
+#logo {
+    color: rgb(94, 142, 165);
+    font-size: 40px;
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+#busqueda {
+    width: 300px;    
+    height: 30px;
+    color: blue;
+}
+
+#carrousel_nav nav {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(94, 142, 165);
+    padding: 10px 0px;
+}
+
+#carrousel_nav nav a {
+    color: white;
+}
+
+#carrousel_nav nav a:hover {
+    background-color: lightpink;
+    color: rgb(94, 142, 165);
+}
+
+.carousel-inner {
+    max-height: 350px;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+#texto_boton {
+    width: 100%;
+}
+
+#texto_boton div span {
+    color: rgb(94, 142, 165);
+}
+
+#texto_boton div form button {
+    background-color: rgb(94, 142, 165);
+    color: white;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#blog {
+    margin-top: 30px;
+}
+
+#blog nav, .cabecera_tarjetas {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(97, 129, 144);
+}
+
+#tarjetas_horizontales {
+    background-color: rgb(158, 178, 189);
+}
+
+.fondo_tarjetas {
+    background-color: rgb(158, 178, 189);    
+}
+
+img {
+    padding: 2%;
+}
+
+.fondo_img {
+    background-color: rgb(158, 178, 189);
+}
