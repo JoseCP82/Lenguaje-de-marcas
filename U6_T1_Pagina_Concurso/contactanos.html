@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Super 8 Versiones . Contacto</title>
+</head>
+
+<body>
+  <div class="container">
+    <!--Cabecera con logotipo y menú tipo lista desordenada convertible en botón tipo "hamburguesa para formatos de pantalla móviles"-->
+    <div id="header">
+      <!--Navbar contenedor del logotipo y menú-->
+      <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid" id="fondo_header">
+          <img src="img/Logo Super 8 Versiones PNG.png" alt="facebook" width="250" height="150">
+          <!--Contiene el menú el boton tipo "hamburguesa"-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <!--Menú tipo lista desordenada-->
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-4">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="media.html">Media</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#">Contacto</a>
+                </li>
+                <!--Enlace desplegable, siendo una de las opciones del menú.
+                   Éste contiene varios enlaces con iconos (funcionales). También en forma de lista desordenada.-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Síguenos!!!
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="https://www.facebook.com/super8versiones" target="_blank">
+                        <img src="img/face.png" alt="facebook" width="25" height="25"> - Facebook
+                      </a></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/super8versiones/?hl=es"
+                        target="_blank">
+                        <img src="img/insta.png" alt="insta" width="25" height="25"> - Instagram
+                      </a></li>
+                    <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCekGfXO_QOvjCBT1Xs-z6Ug"
+                        target="_blank">
+                        <img src="img/youtube.png" alt="youtube" width="25" height="30"> - Youtube
+                      </a></li>
+                    <li><a class="dropdown-item" href="https://www.bodas.net/musica/super8--e95524" target="_blank">
+                        <img src="img/bodasnet.png" alt="bodas net" width="25" height="25"> - Bodas.net
+                      </a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--Grupo de dos tarjetas la primera contiene a su vez otra tarjeta seguisa de un acordeon,
+      la segunda tarjeta contiene un formulario completo.-->
+    <div id="main">
+      <div class="row">
+        <!--Primera trajeta (izquierda)-->
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <!--Subtarjeta-->
+              <div class="card">
+                <div class="card-body">
+                  <h2>Contacto</h2>
+                  <img src="img/wasap.png" alt="phones" width="60" height="50">637312254 - 664280895 <br>
+                  <img src="img/email.png" alt="email" width="30" height="30" class="ms-3 me-3">versionessuper8@gmail.com
+                </div>
+              </div>
+              <!--Acordeon con tres elementos-->
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <h2>Repertorio</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Descargate y consulta nuestro divertido <a href="#"> repertorio </a>en pdf.
+                      Disponemos de más de 3 horas de música con todos los temas que conoces para que cantes y bailes al máximo.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <h2>Nuestro equipo</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">En nuestras actuaciones usamos un equipo de sonido Lynx Pro Audio 
+                      con 5600 w de pontencia y equipo de luces para dar efecto y color. <br>
+                      <img src="img/leds.jpg" alt="..." width="150px" height="150px" class="ms-5">
+                      <img src="img/Ground-Stack-izquierdaCXA.png" alt="..." width="150px" height="250px" class="ms-5">
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      <h2>Rider para eventos</h2>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Consulta las especificaciones <a href="#">técnicas</a> que necesitamos para actuar en las mejores condiciones.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Segunda tarjeta (derecha)-->
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-12">
+                  <h2>Pídenos presupuesto</h2>
+                </div>
+                <!--Formulario-->
+                <div class="col-md-12">
+                  <form method="#" action="#">
+                    <div class="form-group">
+                      <label for="nombre">Nombre</label>
+                      <input name="nombre" required type="text" id="nombre" class="form-control"
+                        placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group mt-1">
+                      <label for="apellidos">Apellidos</label>
+                      <input name="apellidos" required type="text" id="apellidos" class="form-control"
+                        placeholder="Tus apellidos">
+                    </div>
+                    <div class="form-group mt-1">
+                      <label for="telefono">Teléfono</label>
+                      <input name="telefono" required type="text" id="telefono" class="form-control"
+                        placeholder="Tu teléfono">
+                    </div>
+                    <div class="form-group mt-1">
+                      <label for="correo">Correo electrónico</label>
+                      <input name="correo" required type="email" id="correo" class="form-control"
+                        placeholder="Tu correo electrónico">
+                    </div>
+                    <div class="form-group mt-1">
+                      <label for="mensaje">Mensaje</label>
+                      <textarea required placeholder="Escribe tu mensaje" class="form-control" name="mensaje"
+                        id="mensaje" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="form-group mt-3">
+                      <button class="btn-primary btn" type="submit">
+                        Enviar
+                      </button>
+                      <button class="btn-primary btn ms-3" type="reset">
+                        Limpiar
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Nav con lista desordenada. Contiene iconos con enlaces totalmente funcionales-->
+    <div id="footer" class="mt-4">
+      <ul class="nav justify-content-center bg-black">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/super8versiones" target="_blank">
+            <img src="img/face.png" alt="facebook" width="25" height="25">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/super8versiones/?hl=es" target="_blank">
+            <img src="img/insta.png" alt="insta" width="25" height="25">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.youtube.com/channel/UCekGfXO_QOvjCBT1Xs-z6Ug" target="_blank">
+            <img src="img/youtube.png" alt="youtube" width="25" height="30">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.bodas.net/musica/super8--e95524" target="_blank">
+            <img src="img/bodasnet.png" alt="bodas net" width="25" height="25">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
