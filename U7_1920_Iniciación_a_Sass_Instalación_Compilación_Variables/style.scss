@@ -1,0 +1,26 @@
+$background-color: #ECF2F8;
+$color-titulo: #EE0162;
+$color-subtitulo: #FE6112;
+$color-texto: #4B4353;
+
+body{
+    $anchoContainer: 75%; 
+    background-color: $background-color;
+    width: 100%;
+    margin: 0;
+    .container{ 
+        width: $anchoContainer;
+        margin: auto;
+        h1{
+            color: $color-titulo;
+            text-align: center;
+        }
+        h2{
+            color: $color-subtitulo;
+        }
+        span{
+            color: $color-texto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+}

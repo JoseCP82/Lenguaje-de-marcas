@@ -1,0 +1,22 @@
+body {
+  background-color: #ECF2F8;
+  width: 100%;
+  margin: 0;
+}
+body .container {
+  width: 75%;
+  margin: auto;
+}
+body .container h1 {
+  color: #EE0162;
+  text-align: center;
+}
+body .container h2 {
+  color: #FE6112;
+}
+body .container span {
+  color: #4B4353;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*# sourceMappingURL=style.css.map */
