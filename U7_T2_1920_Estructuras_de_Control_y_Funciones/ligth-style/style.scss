@@ -1,0 +1,82 @@
+$background-color: #ECF2F8;
+$color-titulo: #EE0162;
+$color-subtitulo: #FE6112;
+$color-texto: #4B4353;
+
+body{
+    $anchoContainer: 75%; 
+    background-color: $background-color;
+    width: 100%;
+    margin: 0;
+    .container{ 
+        width: $anchoContainer;
+        margin: auto;
+        h1{
+            color: $color-titulo;
+            text-align: center;
+        }
+        h2{
+            color: $color-subtitulo;
+        }
+        span{
+            color: $color-texto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table{
+            border-collapse: collapse;   
+        }
+        tr, td{
+            border: 1px solid black;
+        }
+
+        //Punto 1
+        $colores-tabla: green,red, violet, blue, yellow, grey, orange;
+        @for $i from 1 through 7 {
+            tr:nth-child(#{$i}){
+                background-color: nth($colores-tabla,$i);
+            }
+        }
+        
+        //Punto 2
+        @for $i from 1 through 6 {
+            h#{$i} {
+                text-align: left;
+                color: nth($colores-tabla,$i);
+            }
+        }
+
+        //Punto 3
+        //Función que recibe un parametro correspondiente a un punto de ruptura @media
+        //Devuelve el ancho correspondiente
+        @function calcularAnchura($ancho){
+            $result: 0;
+            @if $ancho == 768 {
+                $result: 80%;
+              } @else if $ancho == 1024 {
+                $result: 50%;
+              } @else {
+                $result: 100%;
+              }
+            @return $result;
+        }
+        //Emjemplo de la funcion anterior
+        @media only screen and (min-width: 768px) {
+           width: calcularAnchura(768);
+        }
+    }
+
+    $dark-style: false;
+    $light-style: true;
+
+    @if $light-style == true {
+        background-color: #fff;
+        color: #000;
+      } @else if $dark-style {
+        background-color: #000;
+        color: #fff;
+      } @else {
+        background-color: #aaa;
+        color: #444;
+      }
+}

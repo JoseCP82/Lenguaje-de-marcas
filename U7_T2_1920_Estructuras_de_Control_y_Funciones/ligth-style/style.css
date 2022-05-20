@@ -1,0 +1,80 @@
+body {
+  background-color: #ECF2F8;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+}
+body .container {
+  width: 75%;
+  margin: auto;
+}
+body .container h1 {
+  color: #EE0162;
+  text-align: center;
+}
+body .container h2 {
+  color: #FE6112;
+}
+body .container span {
+  color: #4B4353;
+  font-family: "Courier New", Courier, monospace;
+}
+body .container table {
+  border-collapse: collapse;
+}
+body .container tr, body .container td {
+  border: 1px solid black;
+}
+body .container tr:nth-child(1) {
+  background-color: green;
+}
+body .container tr:nth-child(2) {
+  background-color: red;
+}
+body .container tr:nth-child(3) {
+  background-color: violet;
+}
+body .container tr:nth-child(4) {
+  background-color: blue;
+}
+body .container tr:nth-child(5) {
+  background-color: yellow;
+}
+body .container tr:nth-child(6) {
+  background-color: grey;
+}
+body .container tr:nth-child(7) {
+  background-color: orange;
+}
+body .container h1 {
+  text-align: left;
+  color: green;
+}
+body .container h2 {
+  text-align: left;
+  color: red;
+}
+body .container h3 {
+  text-align: left;
+  color: violet;
+}
+body .container h4 {
+  text-align: left;
+  color: blue;
+}
+body .container h5 {
+  text-align: left;
+  color: yellow;
+}
+body .container h6 {
+  text-align: left;
+  color: grey;
+}
+@media only screen and (min-width: 768px) {
+  body .container {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
