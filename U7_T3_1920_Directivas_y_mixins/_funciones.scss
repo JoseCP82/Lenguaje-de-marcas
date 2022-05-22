@@ -1,0 +1,11 @@
+@function calcularAnchura($ancho){
+    $result: 0;
+    @if $ancho == 768 {
+        $result: 80%;
+      } @else if $ancho == 1024 {
+        $result: 50%;
+      } @else {
+        $result: 100%;
+      }
+    @return $result;
+}

@@ -1,0 +1,116 @@
+.container tr:nth-child(1) {
+  background-color: green;
+}
+.container tr:nth-child(2) {
+  background-color: red;
+}
+.container tr:nth-child(3) {
+  background-color: violet;
+}
+.container tr:nth-child(4) {
+  background-color: blue;
+}
+.container tr:nth-child(5) {
+  background-color: yellow;
+}
+.container tr:nth-child(6) {
+  background-color: grey;
+}
+.container tr:nth-child(7) {
+  background-color: orange;
+}
+.container h1 {
+  text-align: left;
+  color: green;
+}
+.container h2 {
+  text-align: left;
+  color: red;
+}
+.container h3 {
+  text-align: left;
+  color: violet;
+}
+.container h4 {
+  text-align: left;
+  color: blue;
+}
+.container h5 {
+  text-align: left;
+  color: yellow;
+}
+.container h6 {
+  text-align: left;
+  color: grey;
+}
+
+body {
+  background-color: #ECF2F8;
+  width: 100%;
+  margin: 0;
+}
+body .container {
+  width: 75%;
+  margin: auto;
+}
+body .container h1 {
+  color: #EE0162;
+  text-align: center;
+}
+body .container h2 {
+  color: #FE6112;
+}
+body .container span {
+  color: #4B4353;
+  font-family: "Courier New", Courier, monospace;
+}
+body .container table {
+  border-collapse: collapse;
+}
+body .container tr, body .container td {
+  border: 1px solid black;
+}
+@media only screen and (min-width: 768px) {
+  body .container {
+    width: 80%;
+  }
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: green;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*# sourceMappingURL=cv.css.map */

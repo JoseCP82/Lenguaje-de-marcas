@@ -1,0 +1,14 @@
+.container {
+    @for $i from 1 through 7 {
+        tr:nth-child(#{$i}){
+            background-color: nth($colores-tabla,$i);
+        }
+    }
+    
+    @for $i from 1 through 6 {
+        h#{$i} {
+            text-align: left;
+            color: nth($colores-tabla,$i);
+        }
+    }
+}

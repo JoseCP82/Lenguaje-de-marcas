@@ -1,0 +1,38 @@
+body{
+    $anchoContainer: 75%; 
+    background-color: $background-color;
+    width: 100%;
+    margin: 0;
+    .container{ 
+        width: $anchoContainer;
+        margin: auto;
+        h1{
+            color: $color-titulo;
+            text-align: center;
+        }
+        h2{
+            color: $color-subtitulo;
+        }
+        span{
+            color: $color-texto;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table{
+            border-collapse: collapse;   
+        }
+        tr, td{
+            border: 1px solid black;
+        }
+
+
+
+
+
+        
+        //Ejemplo de la funcion anterior
+        @media only screen and (min-width: 768px) {
+           width: calcularAnchura(768);
+        }
+    }
+}
