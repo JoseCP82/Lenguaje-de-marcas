@@ -34,13 +34,13 @@
 		    	</div>
 		    	<div class="col-md-2">
 		      		<label for="inputMonedas">Monedas</label>
-		      		<select id="inputMonedas" class="form-select" th:field="*{moneda}">		        		
+		      		<select id="inputMonedas" class="form-select" th:field="*{moneda}" required>		        		
 				        <option th:each="moneda : ${monedas}" th:value="${moneda.id}" th:text="${moneda.nombre}"></option>
 				    </select>	
 				</div>
-				<div class="col-md-1">
+				<div class="col-md-2">
 					<br>
-					<button type="submit" class="btn btn-primary">Convertir</button>
+					<button type="submit" class="btn btn-primary w-100">Convertir</button>					
 				</div>
 				<div class="col-md-2">
 					<label for="inputResultado">Resultado</label>	    					
